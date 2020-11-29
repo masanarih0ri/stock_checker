@@ -1,0 +1,22 @@
+{
+  "name": "stock_checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masanarih0ri/stock_checker.git"
+  },
+  "author": "masanarih0ri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masanarih0ri/stock_checker/issues"
+  },
+  "homepage": "https://github.com/masanarih0ri/stock_checker#readme",
+  "devDependencies": {
+    "@nuxt/typescript-build": "^2.0.3"
+  }
+}
