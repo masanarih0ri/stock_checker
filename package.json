@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start",
+    "lint": "eslint --ext .ts,.js,.vue ."
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,13 @@
   },
   "homepage": "https://github.com/masanarih0ri/stock_checker#readme",
   "devDependencies": {
-    "@nuxt/typescript-build": "^2.0.3"
+    "@nuxt/typescript-build": "latest",
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.14.0"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "latest",
+    "nuxt": "latest"
   }
 }
